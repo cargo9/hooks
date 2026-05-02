@@ -1,10 +1,10 @@
 import React from "react";
 // import CustomHookDemo from "./components/CustomHookDemo.jsx";
-// import UseEffectDemo from "./components/UseEffectDemo.jsx";
-// import UseMemoDemo from "./components/UseMemoDemo.jsx";
+import UseEffectDemo from "./components/UseEffectDemo.jsx";
+import UseMemoDemo from "./components/UseMemoDemo.jsx";
 // import UseRefDemo from "./components/UseRefDemo.jsx";
 import UseStateDemo from "./components/UseStateDemo.jsx";
-
+  
 function App() {
   return (
     <main className="page-shell">
@@ -27,10 +27,10 @@ function App() {
           Це схоже на реальні React-проєкти: одна частина інтерфейсу = один файл.
         */}
         <UseStateDemo />
-        {/* <UseEffectDemo />
+        <UseEffectDemo />
         <UseMemoDemo />
-        <UseRefDemo />
-        <CustomHookDemo /> */}
+        {/* <UseRefDemo />
+        <CustomHookDemo />  */}
       </section>
     </main>
   );
